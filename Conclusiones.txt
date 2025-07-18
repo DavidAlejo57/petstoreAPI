@@ -1,0 +1,12 @@
+Conclusiones de la prueba realizada
+
+1. Durante la ejecución de las pruebas en Karate, se observó que el API de búsqueda por estado no retorna todos los items
+esperados. Al realizar una comparación mediante un búsqueda indivodual por ID, se verificó que los datos: Nombre, Estado,
+ID si cumplen con los cambios realizados, es un posible problema en la paginación o filtrado del endpoint
+
+2. Se identificó que bajo condiciones de consumo repetitivo o alto volumen de peticiones consecutivas, los servicios
+presentan inestabilidad, lleganddo incluso a caer o devolver respuestas de error. Esto indica que seriá necesario revisar
+la capacidad del sistema para manejar cargas sostenidas y considerar ajustar en términos de escalabilidad, caché o límitar tasa de consumo
+
+3. En base a estos hallazgos, se recomienda realizar una revisión técnica del endpoint de búsqueda por estado y evaluar
+pruebas de estrés adicionales para garantizar la disponibilidad y estabilidad del API bajo diferentes escenarios de uso
