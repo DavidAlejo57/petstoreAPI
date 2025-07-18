@@ -20,5 +20,9 @@ mascota y el estatus de la mascota a "sold",• Consulta la mascota modificada p
 
 ## Ver los informes
 1. Abrir carpeta "target"
-2. Abrir carpeta "karate'reports"
-3. Click en "karate'summary.html"
+2. Abrir carpeta "karate-reports"
+3. Click en "karate-summary.html"
+<img width="440" height="271" alt="image" src="https://github.com/user-attachments/assets/30d2319c-4ee5-413d-913f-7e5caba7de9d" />
+4. Podemos observar el informe de karate
+<img width="1336" height="543" alt="image" src="https://github.com/user-attachments/assets/e76e6383-ce96-45ef-a275-0fa8ac2ea9f9" />
+
